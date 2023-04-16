@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Wedding Invite" content="Tejaswini Weds Punith" />
+    <title>T♥P</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Lilita+One&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Salsa&display=swap");
+
+    .WID {
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .MAIN {
+      height: 95vh;
+      /* background-color: rgb(1, 138, 13); */
+      margin: 1px auto;
+      border-radius: 16px;
+      padding: 2px;
+      overflow-y: scroll;
+      -webkit-box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 1);
+      box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 1);
+    }
+
+    .NOTI {
+      width: 100%;
+      height: 24px;
+      background-color: rgb(83, 83, 74);
+      display: block;
+      margin: 0px auto;
+      border-radius: 16px 16px 0px 0px;
+    }
+
+    .WALL {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0px auto;
+      /* margin-top: 250px; */
+      position: relative;
+      margin-top: -16px;
+      overflow: hidden;
+    }
+
+    #enj {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      top: -1% !important;
+      color: orangered;
+    }
+
+    #gn,
+    #bn,
+    #ha {
+      width: 100%;
+      text-align: center;
+      font-size: 2em;
+      font-weight: 900;
+      font-family: "Dancing Script", cursive;
+    }
+
+    #ha {
+      color: #a60000;
+      font-size: 30.4px;
+      animation: Ha 1.6s infinite;
+      animation-timing-function: cubic-bezier(0.01, 0.84, 1, -1.21);
+    }
+
+    @keyframes Ha {
+      0% {
+        transform: scale(1, 1);
+      }
+
+      100% {
+        transform: scale(2.5, 2.5);
+        opacity: 0.4;
+      }
+    }
+
+    @-moz-keyframes Ha {
+      0% {
+        transform: scale(1, 1);
+      }
+
+      100% {
+        transform: scale(2.5, 2.5);
+        opacity: 0.4;
+      }
+    }
+
+    @-o-keyframes Ha {
+      0% {
+        transform: scale(1, 1);
+      }
+
+      100% {
+        transform: scale(2.5, 2.5);
+        opacity: 0.4;
+      }
+    }
+
+    @-webkit-keyframes Ha {
+      0% {
+        transform: scale(1, 1);
+      }
+
+      100% {
+        transform: scale(2.5, 2.5);
+        opacity: 0.4;
+      }
+    }
+
+    #dt {
+      width: 45%;
+      text-align: center;
+      display: inline-block;
+      margin-left: 3%;
+      font-size: 22px;
+      font-family: "Salsa", cursive;
+      color: rgb(124, 18, 101);
+    }
+
+    #andt {
+      border-radius: 50%;
+      padding: 2px;
+      display: inline-block;
+      opacity: 1;
+      color: black;
+      /* animation: dt 2s infinite ease-in-out; */
+      /* animation-direction: alternate; */
+      /* animation-fill-mode: both; */
+      color: #dd0f18;
+    }
+
+    .EVEN {
+      line-height: 20px;
+    }
+
+    #anti {
+      font-size: 30px;
+      animation: ti 1s infinite;
+      display: inline-block;
+      color: #dd0f18;
+    }
+
+    @keyframes ti {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes ti {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-o-keyframes ti {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes ti {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    #anep,
+    #aneP {
+      font-size: 22px;
+      animation: loa 0.7s infinite ease-in-out;
+      animation-direction: alternate-reverse;
+      display: inline-block;
+    }
+
+    @keyframes loa {
+      0% {
+        transform: rotateZ(-15deg);
+      }
+
+      50% {
+        transform: rotateZ(20deg);
+      }
+
+      100% {
+        transform: rotateZ(-10deg);
+      }
+    }
+
+    @-moz-keyframes loa {
+      0% {
+        transform: rotateZ(-15deg);
+      }
+
+      50% {
+        transform: rotateZ(20deg);
+      }
+
+      100% {
+        transform: rotateZ(-10deg);
+      }
+    }
+
+    @-o-keyframes loa {
+      0% {
+        transform: rotateZ(-15deg);
+      }
+
+      50% {
+        transform: rotateZ(20deg);
+      }
+
+      100% {
+        transform: rotateZ(-10deg);
+      }
+    }
+
+    @-webkit-keyframes loa {
+      0% {
+        transform: rotateZ(-15deg);
+      }
+
+      50% {
+        transform: rotateZ(20deg);
+      }
+
+      100% {
+        transform: rotateZ(-10deg);
+      }
+    }
+
+    #lo {
+      margin-top: -2%;
+      font-family: "Saira Condensed", sans-serif;
+      font-size: 1em;
+      line-height: 0.97;
+      text-align: center;
+    }
+
+    #loc {
+      animation: Lo 1.6s infinite ease-in-out;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    @keyframes Lo {
+      0% {
+        transform: scale(1, 1);
+        opacity: 0.4;
+      }
+
+      50% {
+        transform: scale(1.4, 1.4);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1, 1);
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes Lo {
+      0% {
+        transform: scale(1, 1);
+        opacity: 0.4;
+      }
+
+      50% {
+        transform: scale(1.4, 1.4);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1, 1);
+        opacity: 1;
+      }
+    }
+
+    @-o-keyframes Lo {
+      0% {
+        transform: scale(1, 1);
+        opacity: 0.4;
+      }
+
+      50% {
+        transform: scale(1.4, 1.4);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1, 1);
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes Lo {
+      0% {
+        transform: scale(1, 1);
+        opacity: 0.4;
+      }
+
+      50% {
+        transform: scale(1.4, 1.4);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1, 1);
+        opacity: 1;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .BAC {
+      width: 100%;
+    }
+
+    .BAC img {
+      width: 100%;
+    }
+    .MAPIMG {
+      float: right;
+      margin-top: 3%;
+      border: 1px solid red;
+      border-radius: 16px;
+    }
+    .MAPIMG iframe {
+      border-radius: 16px;
+    }
+  </style>
+  <body>
+    <div class="MAIN WID" id="main">
+      <div class="BAC">
+        <img src="./FL/BAS.svg" alt="" srcset="" />
+      </div>
+      <span class="WALL WID" id="wall"></span>
+    </div>
+  </body>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-confetti@2/tsparticles.preset.confetti.bundle.min.js"></script> -->
+  <script src="./FL/tsp.js"></script>
+
+  <script>
+    var AS = ["J", "E", "S", "H", "P", "R", "M", "L"];
+    var EP;
+    var PE;
+    AS.forEach(function (a, aa, aaa) {
+      var d = document.createElement("div");
+      document.getElementById("wall").append(d);
+    });
+    var DS = document.querySelectorAll("#wall > div");
+    DS[0].id = "enj";
+    DS[1].id = "enj";
+    DS[2].id = "gn";
+    DS[3].id = "ha";
+    DS[4].id = "bn";
+    DS[5].id = "dt";
+    DS[6].id = "dt";
+    DS[7].id = "lo";
+    var E = "Join us for";
+    var P = "Wedding Party";
+    EP = E.split("");
+    PE = P.split("");
+    EP.forEach(function (e, ee, eee) {
+      var S = document.createElement("span");
+      S.id = "anep";
+      S.innerHTML += e;
+      DS[0].append(S);
+      if (ee == 4) {
+        document.querySelectorAll("#anep")[ee].style.marginLeft = "7px";
+      } else if (ee == 7) {
+        document.querySelectorAll("#anep")[ee].style.marginLeft = "7px";
+      } else if (ee == 11) {
+        document.querySelectorAll("#anep")[ee].style.marginLeft = "7px";
+      }
+    });
+    PE.forEach(function (p, pp, ppp) {
+      var P = document.createElement("span");
+      P.id = "aneP";
+      P.innerHTML += p;
+      DS[1].append(P);
+      if (pp == 7) {
+        document.querySelectorAll("#aneP")[pp].style.marginLeft = "7px";
+      }
+    });
+    const Data = () => {
+      DS[2].innerHTML = "Tejaswini A";
+      DS[3].innerHTML = "♥";
+      DS[4].innerHTML = "Punith T";
+      DS[5].innerHTML =
+        '<div class="EVEN">' +
+        "Reception:" +
+        "<br>" +
+        '<span id="andt">' +
+        "06" +
+        "</span>" +
+        "-05-2023" +
+        "<br>" +
+        "07" +
+        '<span id="anti">' +
+        ":" +
+        "</span>" +
+        "00 pm onwards" +
+        "</div>";
+      DS[6].innerHTML =
+        '<div class="EVEN">' +
+        "Muhurtham:" +
+        "<br>" +
+        '<span id="andt">' +
+        "07" +
+        "</span>" +
+        "-05-2023" +
+        "<br>" +
+        "10" +
+        '<span id="anti">' +
+        ":" +
+        "</span>" +
+        "45 am onwards" +
+        "</div>";
+      DS[7].innerHTML =
+        '<a href="https://goo.gl/maps/KbbMbEC3WVLnvury6" target="_blank">' +
+        '<span id="loc"><img src="./FL/5.svg" width="20"></span>' +
+        "Sri Jyothinandamayi Samudaya Bhavan" +
+        "<br>" +
+        "Amba Bhavani temple Road Vidyaranyapura, post, MS Palya, Bengaluru, Karnataka 560097." +
+        "<br>" +
+        "</a>" +
+        '<div class="MAPIMG">' +
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.139053374545!2d77.5453782!3d13.0969834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae228964d33dcd%3A0xbe9ab2cfc29c3c3e!2sSri%20Jyothinandamayi%20Samudaya%20Bhavan!5e0!3m2!1sen!2sin!4v1681651167211!5m2!1sen!2sin" width="100" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>' +
+        "</div>";
+      // DS[7].innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15543.884329022101!2d77.5850912!3d13.1010185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x228349daebba55e3!2sDKVS%20-%20Dakshina%20Kannada%20Vishwa%20Brahmana%20Sangha!5e0!3m2!1sen!2sin!4v1605591976290!5m2!1sen!2sin" width="" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><span>DKVS - Dakshina Kannada Vishwa Brahmana Sangha,' + '<br>' + 'Vishwakarma Dhamna, CA-21, Newtown, Sector A, Yelahanka Satellite Town, Yelahanka, Bengaluru 560064.</span>';
+    };
+    window.onload = Data();
+
+    (async () => {
+      // await loadConfettiPreset(tsParticles); // this is required only if you are not using the bundle script
+
+      await tsParticles.load("tsparticles", {
+        emitters: [
+          {
+            life: {
+              duration: 1.6,
+              count: 0.7,
+            },
+            position: {
+              x: 0,
+              y: 30,
+            },
+            particles: {
+              move: {
+                direction: "top-right",
+              },
+            },
+          },
+          {
+            life: {
+              duration: 1.6,
+              count: 0.7,
+            },
+            position: {
+              x: 100,
+              y: 30,
+            },
+            particles: {
+              move: {
+                direction: "top-left",
+              },
+            },
+          },
+        ],
+        particles: {
+          color: {
+            value: [
+              "#b71c1c",
+              "4a148c",
+              "004d40",
+              "bf360c",
+              "424242",
+              "#ffffff",
+            ],
+          },
+        },
+        preset: "confetti",
+      });
+    })();
+  </script>
+</html>
